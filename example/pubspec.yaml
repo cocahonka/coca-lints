@@ -5,4 +5,4 @@ environment:
   sdk: ^3.7.0
 
 dev_dependencies:
-  coca_lints: ^1.0.0
+  coca_lints: ^1.0.1

@@ -13,7 +13,6 @@
 // 3. Run `dart pub get` to install dependencies
 
 void main() {
-  // Comment why ignore
   // ignore: avoid_print
   print('Hello, World!');
 }

@@ -1,6 +1,6 @@
 name: coca_lints
-description: Set of strict linting rules for Dart projects.
-version: 1.0.0
+description: Strict linting rules for Dart to enhance code quality and readability.
+version: 1.0.1
 repository: https://github.com/cocahonka/coca-lints
 topics:
   - analysis

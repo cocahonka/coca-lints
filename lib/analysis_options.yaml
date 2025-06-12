@@ -36,7 +36,6 @@ analyzer:
     test_types_in_equals: warning
     throw_in_finally: warning
     type_annotate_public_apis: warning
-    unawaited_futures: warning
     unnecessary_await_in_return: warning
     unrelated_type_equality_checks: warning
     use_function_type_syntax_for_parameters: warning
@@ -82,7 +81,6 @@ linter:
     avoid_bool_literals_in_conditional_expressions: true
     avoid_catches_without_on_clauses: true
     avoid_catching_errors: true
-    avoid_classes_with_only_static_members: true
     avoid_double_and_int_checks: true
     avoid_dynamic_calls: true
     avoid_empty_else: true
@@ -221,7 +219,6 @@ linter:
     type_annotate_public_apis: true
     type_init_formals: true
     type_literal_in_constant_pattern: true
-    unawaited_futures: true
     unintended_html_in_doc_comment: true
     unnecessary_await_in_return: true
     unnecessary_brace_in_string_interps: true
@@ -229,7 +226,6 @@ linter:
     unnecessary_const: true
     unnecessary_constructor_name: true
     unnecessary_getters_setters: true
-    unnecessary_lambdas: true
     unnecessary_late: true
     unnecessary_library_directive: true
     unnecessary_library_name: true
@@ -269,6 +265,7 @@ linter:
 
     always_put_control_body_on_new_line: false
     always_specify_types: false
+    avoid_classes_with_only_static_members: false
     avoid_redundant_argument_values: false
     cascade_invocations: false
     deprecated_member_use_from_same_package: false
@@ -283,12 +280,13 @@ linter:
     public_member_api_docs: false
     require_trailing_commas: false # useless because 3.7
     sort_pub_dependencies: false
+    unawaited_futures: false
     unnecessary_final: false
+    unnecessary_lambdas: false
 
     # Situational
     avoid_print: true
-    document_ignores: true
-    use_string_buffers: true
-
+    document_ignores: false
     prefer_expression_function_bodies: false
     unreachable_from_main: false
+    use_string_buffers: true
